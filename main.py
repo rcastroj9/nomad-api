@@ -158,4 +158,4 @@ def edit_trip(email, trip_name, changing_param, new_value):
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host='0.0.0.0')
